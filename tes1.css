@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: helvetica, arial, san-serif;
+  }
+  
+  .first {
+    background-color: #ddeffb;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: #222f3e;
+    font-family: "Poppins", san-serif;
+  }
+
+  
+  .hero-text {
+    font-family: "Poppins", san-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5em;
+    border-radius: 10px;
+  }
+  .hero-text p {
+    text-align: justify;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .product-list {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .product-list .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2bec3;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  
+  .card .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card .text {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+  }
+  
+  .clear {
+    background-color: rgb(188, 188, 188);
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 35%;
+    margin-left: 65%;
+    
+  }
+  .clear:hover {
+    box-shadow: 0px 5px 5px #b2bec3;
+    color: #eb4d4b;
+    padding: 10px 10px;
+    margin: 0 10px;
+    width: inherit;
+    /*margin: 5px 0;*/
+    cursor: pointer;
+    display: inherit;
+    position: inherit;
+    display: flex;
+    position: relative;
+  }
+  
+  
+  .product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+  }
+  
+  .align-center {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .align-center-1 {
+    text-align: cen;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #list {
+    margin-top: 125px;
+    margin-right: 225px;
+    margin-left: 225px;
+    margin-bottom: 30px;
+}
+
+#list .list-1 {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+  
